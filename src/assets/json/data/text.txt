@@ -1,0 +1,1 @@
+https://github.com/Robinyo/serendipity/blob/master/resources/senators.json
