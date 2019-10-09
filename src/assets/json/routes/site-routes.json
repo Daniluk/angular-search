@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "id": "/"
+        },
+        {
+            "id": "/lazy"
+        },
+        {
+            "id": "/lazy/nested"
+        },
+        {
+            "id": "/site",
+            "items": [
+                {
+                    "id": "/user"
+                }
+            ]
+        },
+        {
+            "id": "/admin"
+        }
+    ]
+}

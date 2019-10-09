@@ -1,0 +1,51 @@
+<app-search></app-search>
+<!-- <mat-nav-list>
+    <mat-list-item *ngFor="let item of items">
+        <span>
+            <p>{{item.name}}</p>
+        </span>
+    </mat-list-item>
+</mat-nav-list> -->
+
+<!-- <mat-nav-list *ngFor="let item of items">
+    <a mat-list-item routerLink="{{lang}}/{{item.routerLink}}">{{item?.text}}</a>
+</mat-nav-list> -->
+<!-- 
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>email</th>
+            <th>purchases</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of items ">
+            <td>{{item.name}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.purchases}}</td>
+        </tr>
+    </tbody>
+</table> -->
+
+<ng-container class="mat-elevation-z8">
+    <table mat-table [dataSource]="items"  class="mat-elevation-z8">
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef > name </th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="email">
+        <th mat-header-cell *matHeaderCellDef> email </th>
+        <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="purchases">
+        <th mat-header-cell *matHeaderCellDef > email </th>
+        <td mat-cell *matCellDef="let element"> {{element.purchases}} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </ng-container>

@@ -1,0 +1,29 @@
+{
+    "01": {
+        "category": "BEGINNER",
+        "courseListIcon": "https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png",
+        "description": "Angular Universal Course",
+        "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-universal-small.png",
+        "id": "01",
+        "lessonsCount": 10,
+        "longDescription": "Use Angular on the server too! Learn Angular Server-Side Rendering."
+    },
+    "02": {
+        "category": "ADVANCED",
+        "courseListIcon": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/lock-v2.png",
+        "description": "Angular Security Course - Web Security Fundamentals",
+        "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png",
+        "id": "02",
+        "lessonsCount": 11,
+        "longDescription": "Learn Web Security Fundamentals and apply them to defend an Angular / Node Application from multiple types of attacks."
+    },
+    "03": {
+        "category": "ADVANCED",
+        "courseListIcon": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/alien.png",
+        "description": "Angular PWA - Progressive Web Apps Course",
+        "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png",
+        "id": "03",
+        "lessonsCount": 8,
+        "longDescription": "Learn Angular Progressive Web Applications, build the future of the Web Today."
+    }
+}
